@@ -40,6 +40,10 @@ npm run build
 ```bash
 php artisan migrate --seed
 ```
+11. php artisan key:generate
+```bash
+php artisan key:generate
+```
 12. php artisan serve
 ```bash
 php artisan serve
