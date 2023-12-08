@@ -6,7 +6,7 @@
             <div class="col-md-10 mx-auto col-lg-5">
                 <div class="card">
                     <div class="card-body">
-                        <form class="p-4 p-md-5" method="POST" action="{{ route('login') }}">
+                        <form class="p-3 p-md-4" method="POST" action="{{ route('login') }}">
                             @csrf
                             <h3>{{ __('Login') }}</h3>
                             <div class="form-floating mb-3">

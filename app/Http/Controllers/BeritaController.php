@@ -51,7 +51,11 @@ class BeritaController extends Controller
 
         return redirect('/berita')->with('success', 'added data successfully');
     }
-
+    public function show($id)
+    {
+        $berita   = Berita::findOrFail($id);
+        return view('admin.berita.show', compact('berita'));
+    }
     public function edit($id)
     {
         $kategori = Kategori::get();

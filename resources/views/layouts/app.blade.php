@@ -40,7 +40,6 @@
             @endif
         @endguest
     </div>
-
     @include('layouts.frame.foot')
 </body>
 

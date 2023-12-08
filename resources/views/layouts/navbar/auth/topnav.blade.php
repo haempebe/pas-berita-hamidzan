@@ -1,4 +1,4 @@
-<nav aria-label="breadcrumb" class="navbar-expand-lg bg-dark" data-bs-theme="dark">
+<nav aria-label="breadcrumb" class="navbar-expand-lg bg-dark " data-bs-theme="dark">
     <ol class="breadcrumb p-3 bg-dark border-bottom">
         <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
         <li class="ms-auto">

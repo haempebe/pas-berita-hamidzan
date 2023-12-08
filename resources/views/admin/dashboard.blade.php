@@ -7,7 +7,7 @@
                 <div class="card-header">Berita</div>
                 <div class="card-body">
                     <div class="fs-5 fw-bold">Jumlah Berita</div>
-                    <p>1</p>
+                    <p>{{$countBerita}}</p>
                     <div class="mt-3">
                         <a href="/berita" class="btn btn-sm btn-primary">Lihat</a>
                     </div>
@@ -19,7 +19,7 @@
                 <div class="card-header">Kategori Berita</div>
                 <div class="card-body">
                     <div class="fs-5 fw-bold">Jumlah Kategori</div>
-                    <p>1</p>
+                    <p>{{$countKategori}}</p>
                     <div class="mt-3">
                         <a href="/kategori" class="btn btn-sm btn-primary">Lihat</a>
                     </div>

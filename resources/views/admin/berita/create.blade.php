@@ -19,7 +19,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="isi" class="form-label">Isi</label>
-                                <div id="isi" style="height:330px;"></div>
+                                <div id="isi" style="min-height:330px;"></div>
                                 <textarea class="form-control" name="isi" id="content-textarea" hidden style="display: none;"></textarea>
                                 @error('isi')
                                     <p class='text-danger mb-0 text-xs pt-1'> {{ $message }} </p>
@@ -36,7 +36,7 @@
                                     <label class="form-label border-dashed cursor-pointer" id="label"
                                         style="border-radius:10px;" for="imageFile">Masukkan Gambar
                                         <img class="img-preview img-fluid mb-2 mx-auto">
-                                        <img src="{{ asset('img/imageplus.png') }}" id="plusimg" class="img-fluid p-md-3"
+                                        <img src="" id="plusimg" class="img-fluid p-md-3"
                                             alt="">
                                         <input accept="image/*" type="file" name="gambar" class="form-control mt-3"
                                             id="imageFile" onchange="previewImage()">

@@ -16,7 +16,7 @@ class KategoriController extends Controller
     public function store()
     {
         $attributes = request()->validate([
-            'nama_kategori' => 'required|max:50|min:5|unique:kategoris,nama_kategori',
+            'nama_kategori' => 'required|max:50|unique:kategoris,nama_kategori',
         ], [
             'nama_kategori.required' => 'Kategori nama cannot be blank',
             'nama_kategori.unique' => 'The Kategori nama has already been taken.'

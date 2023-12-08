@@ -14,35 +14,14 @@
             <div class="carousel-item ">
                 <img src="{{ asset('img/gambar/1701835666.jpg') }}" class="img-fluid" alt="" width="100%"
                     style="max-height: 350px">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                    </div>
-                </div>
             </div>
             <div class="carousel-item active">
                 <img src="{{ asset('img/gambar/1701835666.jpg') }}" class="img-fluid" alt="" width="100%"
                     style="max-height: 350px">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                    </div>
-                </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('img/gambar/1701835666.jpg') }}" class="img-fluid" alt="" width="100%"
                     style="max-height: 350px">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                    </div>
-                </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">

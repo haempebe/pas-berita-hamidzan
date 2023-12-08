@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Berita;
 use Illuminate\Http\Request;
+use Psy\Formatter\Formatter;
 
 class PagesController extends Controller
 {
@@ -16,6 +17,6 @@ class PagesController extends Controller
     {
         $berita = Berita::findOrFail($id);
         $allBerita = Berita::paginate(3);
-        return view('pages.detail', compact('berita','allBerita'));
+        return view('pages.detail', compact('berita', 'allBerita'));
     }
 }

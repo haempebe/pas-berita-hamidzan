@@ -40,11 +40,9 @@
                         </ul>
                     </div>
 
-                    <div class="p-4 mb-3 bg-body-tertiary rounded">
+                    <div class="p-4 mb-3 border rounded">
                         <h4 class="fst-italic">About</h4>
-                        <p class="mb-0">Customize this section to tell your visitors a little bit about your publication,
-                            writers,
-                            content, or something else entirely. Totally up to you.</p>
+                        <p class="mb-0">Writer : {{$berita->user->name}}</p>
                     </div>
                 </div>
             </div>

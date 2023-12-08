@@ -8,7 +8,7 @@
             @csrf
             @method('PUT')
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div class="card">
                         <div class="card-body">
                             <div class="mb-3">
@@ -21,7 +21,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="isi" class="form-label">Isi</label>
-                                <div id="isi" style="height:350px;">{!! $berita->isi !!}</div>
+                                <div id="isi" style="min-height:330px;">{!! $berita->isi !!}</div>
                                 <textarea class="form-control" name="isi" id="content-textarea" hidden style="display: none;">{!! $berita->isi !!}</textarea>
                                 @error('isi')
                                     <p class='text-danger mb-0 text-xs pt-1'> {{ $message }} </p>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="card mb-3">
                         <div class="card-body">
                             <div class="mb-3">

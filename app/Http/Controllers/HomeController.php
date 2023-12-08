@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Berita;
+use App\Models\Kategori;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,7 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        
-        return view('admin.dashboard');
+        $countKategori = Kategori::count();
+        $countBerita   = Berita::count();
+        return view('admin.dashboard', compact('countBerita','countKategori'));
     }
 }

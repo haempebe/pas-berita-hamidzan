@@ -19,13 +19,18 @@ use App\Http\Controllers\PagesController;
 */
 
 
-Auth::routes();
+Auth::routes([
+    'register' => false, // Registration Routes...
+    'reset' => false, // Password Reset Routes...
+    'verify' => false, // Email Verification Routes...
+]);
 
 Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
 Route::middleware(['auth'])->group(function () {
     Route::controller(BeritaController::class)->group(function () {
         Route::get('/berita', 'index');
         Route::get('/berita-create', 'create');
+        Route::get('/show/{id}', 'show')->name('berita.show');
         Route::post('/berita-create', 'store')->name('berita.perform');
         Route::get('/berita-edit/{id}', 'edit')->name('berita.edit');
         Route::put('/berita-edit/{id}', 'update')->name('berita.update');

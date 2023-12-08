@@ -39,13 +39,17 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @php
+                            $i = 1;
+                        @endphp
                         @foreach ($allKategori as $item)
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">{{ $i++ }}</th>
                                 <td>{{ $item->nama_kategori }}</td>
                                 <td>{{ $item->created_at->format('F j, Y') }}</td>
                                 <td>
-                                    <a href="{{ route('kategori.edit', $item->id) }}" class="btn btn-sm btn-success">edit</a>
+                                    <a href="{{ route('kategori.edit', $item->id) }}"
+                                        class="btn btn-sm btn-success">edit</a>
                                     <form class="d-inline" onsubmit="return confirm('sure to delete this data')"
                                         action="{{ route('kategori.delete', $item->id) }}" method="post">
                                         @csrf
