@@ -12,19 +12,23 @@ Cara instalasi seperti berikut:
 ```bash
 git clone https://github.com/haempebe/pas-berita-hamidzan.git
 ```
-2. setelah git clone masuk kedalam file dengan perintah cd
+2. copy .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+3. setelah git clone masuk kedalam file dengan perintah cd
 ```bash
 cd pas-berita-hamidzan
 ```
-3. Composer install
+4. Composer install
 ```bash
 composer install
 ```
-4. npm install
+5. npm install
 ```bash
 npm install
 ```
-5. npm run dev
+6. npm run dev
 ```bash
 npm run dev
 ```
@@ -32,19 +36,19 @@ npm run dev
 ```bash
 npm install
 ```
-9. npm run build
+8. npm run build
 ```bash
 npm run build
 ```
-10. php artisan migrate --seed
+9. php artisan migrate --seed
 ```bash
 php artisan migrate --seed
 ```
-11. php artisan key:generate
+10. php artisan key:generate
 ```bash
 php artisan key:generate
 ```
-12. php artisan serve
+11. php artisan serve
 ```bash
 php artisan serve
 ```
