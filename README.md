@@ -2,7 +2,7 @@
 
 PENILAIAN AKHIR SEMESTER GANJIL TAHUN PELAJARAN 2023/2024 NASKAH SOAL
 
-Nama Siswa : Hamidzan Pranajanala Bhamakerti
+###Nama Siswa : Hamidzan Pranajanala Bhamakerti
 ### Ketentuan :
 
 Anda adalah seorang Web Developer yang ditugaskan oleh perusahaan untuk membuat portal berita, adapun fitur yang tersedia sebagai berikut:
