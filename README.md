@@ -73,5 +73,7 @@ php artisan serve
 
 ## Admin account = 
  name => admin
+ 
  email => admin@news.com
+ 
  password => secret
