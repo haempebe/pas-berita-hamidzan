@@ -31,15 +31,15 @@ Cara instalasi seperti berikut:
 ```bash
 git clone https://github.com/haempebe/pas-berita-hamidzan.git
 ```
-2. copy .env.example menjadi .env
-```bash
-cp .env.example .env
-```
-3. setelah git clone masuk kedalam file dengan perintah cd
+2. setelah git clone masuk kedalam file dengan perintah cd
 ```bash
 cd pas-berita-hamidzan
 ```
-4. Composer install
+3. copy .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+3. Composer install
 ```bash
 composer install
 ```
